@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Controls</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header role="banner">
+      <h1>Web Development Project</h1>
+      <nav role="navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="form-controls.html">Form Controls</a></li>
+          <li><a href="javascript.html">JavaScript</a></li>
+          <li><a href="php.html">PHP</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main role="main">
+      <h2>Form Controls</h2>
+      <form action="#" method="post">
+        <label for="text-input">Text Input:</label>
+        <input type="text" id="text-input" name="text-input" />
+
+        <label for="radio-input">Radio Button:</label>
+        <input
+          type="radio"
+          id="radio-input"
+          name="radio-input"
+          value="option1"
+        />
+        Option 1
+        <input
+          type="radio"
+          id="radio-input2"
+          name="radio-input"
+          value="option2"
+        />
+        Option 2
+
+        <label for="checkbox-input">Checkbox:</label>
+        <input
+          type="checkbox"
+          id="checkbox-input"
+          name="checkbox-input"
+          value="check1"
+        />
+        Check 1
+        <input
+          type="checkbox"
+          id="checkbox-input2"
+          name="checkbox-input"
+          value="check2"
+        />
+        Check 2
+
+        <label for="select-input">Select Box:</label>
+        <select id="select-input" name="select-input">
+          <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+        </select>
+
+        <label for="textarea-input">Textarea:</label>
+        <textarea
+          id="textarea-input"
+          name="textarea-input"
+          rows="4"
+          cols="50"
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </main>
+    <footer role="contentinfo">
+      <p>&copy; 2024 Web Development Project</p>
+    </footer>
+  </body>
+</html>

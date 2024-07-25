@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PHP</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header role="banner">
+      <h1>Web Development Project</h1>
+      <nav role="navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="form-controls.html">Form Controls</a></li>
+          <li><a href="javascript.html">JavaScript</a></li>
+          <li><a href="php.html">PHP</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main role="main">
+      <h2>PHP Loops and Conditionals</h2>
+      <p>
+        <?php
+            for ($i = 1; $i <= 5; $i++) {
+                echo "Number: $i <br>"; } echo "<br />"; $number = 3; if
+        ($number % 2 == 0) { echo "$number is even."; } else { echo "$number is
+        odd."; } ?>
+      </p>
+    </main>
+    <footer role="contentinfo">
+      <p>&copy; 2024 Web Development Project</p>
+    </footer>
+  </body>
+</html>
